@@ -1,0 +1,243 @@
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+}
+nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: yellow;
+}
+
+a {
+  display: flex;
+  color: purple;
+  justify-content: center;
+  padding: 14px;
+  text-decoration: none;
+  width: 20%;
+}
+
+a:hover {
+  background-color: white;
+  color: purple;
+  text-align: center;
+}
+.homepage_background {
+  background-image: url(images/home-page-background.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 1500px;
+}
+.header_box {
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 2px;
+  text-align: center;
+  color: yellow;
+  font-size: 10em;
+  font-weight: bolder;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.header2_box {
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 2px;
+  text-align: center;
+  color: yellow;
+  font-size: 5em;
+
+  font-weight: bolder;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.paragraph_box {
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 2px;
+  text-shadow: seashell;
+  display: flex;
+  margin: auto;
+  text-align: center;
+  border-style: groove;
+  border-width: 1em;
+  padding: 2em;
+  background-color: #9400d3;
+  font-weight: bolder;
+  font-size: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-color: #bca7e8;
+  color: yellow;
+}
+.aboutme_background {
+  background-image: url(images/about_me.jpeg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 1500px;
+}
+
+.abme_paragraph_box {
+  -webkit-text-stroke-color: purple;
+  -webkit-text-stroke-width: 1.5px;
+  text-shadow: seashell;
+  display: flex;
+  margin: 2em;
+  text-align: center;
+  border-style: double;
+  border-width: 1em;
+  padding: 2em;
+  background-color: yellow;
+  font-weight: bolder;
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+  border-color: purple;
+  color: purple;
+}
+.ab_me_h1 {
+  margin: 3em;
+  text-align: center;
+  border-style: double;
+  border-width: 0.5em;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-color: purple;
+  background-color: yellow;
+  color: purple;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+  font-weight: bolder;
+}
+.ab_me_h2 {
+  margin: 5em;
+  text-align: center;
+  border-style: double;
+  border-width: 0.5em;
+  padding: 50px;
+  border-color: purple;
+  background-color: yellow;
+  color: purple;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2vw;
+  font-weight: bolder;
+}
+.ethan {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-style: solid;
+  border-color: yellow;
+  border-width: 5px;
+  border-radius: 8px;
+}
+.project_background {
+  background-image: url(images/project_back.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 1500px;
+}
+.contact_background {
+  background-image: url(images/contact_back.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 1500px;
+}
+.skills_background {
+  background-image: url(images/skills_back.jpeg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.skills_h {
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 1.5px;
+  text-align: center;
+  margin: auto;
+  color: green;
+  background-color: white;
+  border-style: groove;
+  border-color: teal;
+  width: 10em;
+  border-width: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.6em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 5em;
+  font-weight: bolder;
+}
+
+.logo {
+  display: flex;
+  align-content: center;
+  margin: 30px;
+  width: 100%;
+  height: auto;
+  background-color: white;
+}
+#logo-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.project_paragraph_box {
+  display: flex;
+  justify-content: center;
+  font-size: 100%;
+  color: purple;
+  text-align: center;
+  align-items: center;
+  border-color: yellow;
+  border-style: groove;
+  background-color: yellow;
+  border-width: 100;
+  margin-bottom: 3em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+.project_paragraph_box img {
+  width: 600px;
+  border-style: groove;
+  border-color: yellow;
+  background-color: lavender;
+  align-items: center;
+}
+
+/*Contact Styling*/
+#contact-title {
+  margin-top: 3em;
+  margin-bottom: 2em;
+  margin-left: 3em;
+  margin-right: 3em;
+  text-align: center;
+  border-style: double;
+  border-width: 0.5em;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-color: purple;
+  background-color: yellow;
+  color: purple;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+  font-weight: bolder;
+}
+.contact {
+  display: flex;
+  justify-content: center;
+  background-color: yellow;
+  border-color: purple;
+  border-style: double;
+  border-width: 10px;
+  padding: 2em;
+  margin-top: 2em;
+  font-size: 2em;
+}
+#email1 {
+  font-size: 20px;
+  border-style: groove;
+  border-color: purple;
+  border-width: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+}
